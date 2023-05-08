@@ -12,10 +12,9 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git url: 'https://github.com/kiriti07/Terraform-jenkins.git', branch:'main'
-                        }
-                    }
+                    git url: 'https://github.com/kiriti07/Terraform-jenkins.git', branch:'main'   
                 }
+            }
 
         stage('Plan') {
             steps {
@@ -46,3 +45,4 @@ pipeline {
             }
         }
     }
+  }
