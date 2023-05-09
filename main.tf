@@ -1,6 +1,6 @@
 provider "aws" {
   region = "ap-south-1"
-  version = "~> 1.0"
+  version = "~> 4.0"
   source = "hashicorp/aws"
 }
 
